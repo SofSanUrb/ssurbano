@@ -1,10 +1,77 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --menuLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616015384/menu_light_argcv8.png) no-repeat;
+  --mainLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616016005/main_logoDark_xs6fzv.png) no-repeat;
+
+  /* Colors */
+  --blue: #224CFF;
+  --text: black;
+  --textMirror: white;
+  --background: white;
+  --backgroundNavbar: black;
+}
+
+body {
   text-align: center;
+  background-color: var(--background);
+  margin: 0;
+  padding: 20px;
+  color: var(--text);
+  /* font-family: Raleway; */
+}
+
+.home{
+  height: 85vh;
+}
+
+.home h1 {
+  padding-top: 35vh;
+}
+
+.collapsedNavbar{
+ height: 60px;
+ background-color: var(--backgroundNavbar);
+ border-radius: 15px;
+}
+
+.my-navText{
+  color: var(--textMirror);
+
+}
+
+.my-navText:hover{
+  border: 3px solid var(--blue);
+  color: var(--textMirror)
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.my-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+}
+
+.navbar-logo{
+  background: var(--mainLogo);
+  background-size: 50px 50px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  margin-top:5px;
+}
+
+.navbar-main, .navbar-main:hover, .navbar-main:focus{
+  padding: 0 auto;
+  border: none;
+  background: var(--menuLogo);
+  height: 50px;
+  width: 100px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +94,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
