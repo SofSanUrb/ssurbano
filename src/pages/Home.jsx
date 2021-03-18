@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react";
 
 export default function Home() {
-    return (
-        <div className="home text-right">
-            <h1>Hi. I’m Sofia.<br></br>
-I am a Web developer.</h1>
-        </div>
-    )
+  return (
+    <div className="main text-right">
+      {/* <img src="./images/blob.svg" alt="blob" /> */}
+      <h1>
+        Hi. I’m Sofia.<br></br>I am a Web developer.
+      </h1>
+    </div>
+  );
 }

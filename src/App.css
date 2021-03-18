@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --menuLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616015384/menu_light_argcv8.png) no-repeat;
-  --mainLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616016005/main_logoDark_xs6fzv.png) no-repeat;
+  --menuLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616015384/menu_light_argcv8.png)
+    no-repeat;
+  --mainLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616016005/main_logoDark_xs6fzv.png)
+    no-repeat;
 
   /* Colors */
-  --blue: #224CFF;
+  --blue: #224cff;
   --text: black;
   --textMirror: white;
   --background: white;
@@ -16,92 +18,70 @@ body {
   text-align: center;
   background-color: var(--background);
   margin: 0;
-  padding: 20px;
+  padding: 20px 50px;
   color: var(--text);
-  /* font-family: Raleway; */
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 4em;
 }
 
-.home{
-  height: 85vh;
+.main {
+  height: 90vh;
+  display: flex;
+  justify-items: flex-start;
 }
 
-.home h1 {
-  padding-top: 35vh;
+.main h1 {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  background: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616091664/blob_kdtsio.svg)
+    no-repeat;
+  background-size: 600px 600px;
+  background-position-y: center;
+  background-position-x: right;
+  margin: auto 0 auto auto;
 }
 
-.collapsedNavbar{
- height: 60px;
- background-color: var(--backgroundNavbar);
- border-radius: 15px;
+.collapsedNavbar {
+  height: 60px;
+  background-color: var(--backgroundNavbar);
+  border-radius: 15px;
 }
 
-.my-navText{
+.my-navText {
   color: var(--textMirror);
-
 }
 
-.my-navText:hover{
+.my-navText:hover {
   border: 3px solid var(--blue);
-  color: var(--textMirror)
+  color: var(--textMirror);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.my-navbar{
+.my-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:60px;
+  height: 60px;
 }
 
-.navbar-logo{
+.navbar-logo {
   background: var(--mainLogo);
   background-size: 50px 50px;
   height: 50px;
   width: 50px;
   border: none;
-  margin-top:5px;
+  margin-top: 5px;
 }
 
-.navbar-main, .navbar-main:hover, .navbar-main:focus{
+.navbar-main,
+.navbar-main:hover,
+.navbar-main:focus {
   padding: 0 auto;
   border: none;
   background: var(--menuLogo);
   height: 50px;
   width: 100px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
