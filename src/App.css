@@ -87,6 +87,8 @@ h3, h4, h5{
 
 .my-navText {
   color: var(--textMirror);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
 
 .my-navText:hover {
@@ -140,6 +142,38 @@ h3, h4, h5{
   background-color: var(--blue);
   border-radius: 5px;
   color:white
+}
+
+.footer{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.scroll-to-top{
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  width:40px;
+  height:40px;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+.go-top{
+  background-color: var(--blue);
+  color:white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.go-top:hover{
+  font-weight: 700;
 }
 
 
