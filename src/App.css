@@ -176,4 +176,32 @@ h3, h4, h5{
   font-weight: 700;
 }
 
+.carousel-control-prev, .carousel-control-next{
+  background-color: var(--blue);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top:25%;
+}
+
+.carousel{
+  text-align: center;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.slide{
+  border-radius: 15px;
+  height: 600px;
+}
+img{
+  border: 5px solid var(--background);
+
+}
+
+.active img{
+  border: 5px solid var(--blue);
+}
 

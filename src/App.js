@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 import { Switch, Route, withRouter } from "react-router";
 
