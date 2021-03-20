@@ -8,7 +8,7 @@ export default function CarouselProject(props) {
     <div className="column">
       <Carousel className="my-carousel">
         {projectImages.map((imagePath, index) => {
-            let deviceType = imagePath.includes('desk') ? 'desktop' : 'mobile'
+            let deviceType = imagePath.toLowerCase().includes('desk') ? 'desktop' : 'mobile'
             
           return (
             <Carousel.Item key={index} className={deviceType}>
