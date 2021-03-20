@@ -175,13 +175,16 @@ h3, h4, h5{
 .go-top:hover{
   font-weight: 700;
 }
+.my-carousel {
+  width: 900px;
+}
 
 .carousel-control-prev, .carousel-control-next{
   background-color: var(--blue);
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  top:25%;
+  top:45%;
 }
 
 .carousel{
@@ -194,14 +197,19 @@ h3, h4, h5{
 
 .slide{
   border-radius: 15px;
-  height: 600px;
+  
 }
 img{
   border: 5px solid var(--background);
-
+  height: 500px;
 }
 
 .active img{
   border: 5px solid var(--blue);
 }
 
+.column {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}

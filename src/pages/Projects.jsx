@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import GoTop from "../components/GoTop";
-import Carousel from "react-bootstrap/Carousel";
+
+import CarouselProject from "../components/CarouselProject";
 
 export default function Projects() {
+  const flatmeDetails = {
+    path: [
+      "./images/flatme_desk_1.PNG",
+      "./images/flatme_desk_2.PNG",
+      "./images/flatme_Mob_0.PNG",
+    ],
+    title: "flatme",
+    description:
+      "The Social Code (TSC) is a social media app (Full Stack Web App) where developers and technical people can share their experiences and create online events to network and share knowledge with other people",
+    github: "https://github.com/SofSanUrb/flatme" ,
+    live: "https://flatme.herokuapp.com/"
+  };
+  
+  const [projectFlatme, setFlatme] = useState(flatmeDetails);
   return (
     <>
       <div className="main my-projects text-left">
@@ -18,12 +33,9 @@ export default function Projects() {
         </p>
       </div>
       <div className="main my-projects text-left">
-        <h1>flatme</h1>
+        <h1>{projectFlatme.title}</h1>
         <p>
-          Readme is a Fullstack responsive social media web platform that gather
-          street and district reviews over different countries, with the goal of
-          helping people that need to move to an area or a city they don't know,
-          have as much information as possible.
+         {projectFlatme.description}
         </p>
         <div className="my-project-links">
           <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
@@ -33,29 +45,7 @@ export default function Projects() {
             Live Web
           </a>
         </div>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              src="./images/flatme_desk_1.PNG"
-              className="slide"
-              alt="project"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              src="./images/flatme_desk_2.PNG"
-              className="slide"
-              alt="project"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              src="./images/flatme_Mob_0.PNG"
-              className="slide"
-              alt="project"
-            />
-          </Carousel.Item>
-        </Carousel>
+        <CarouselProject projectImages={flatmeDetails.path} />
       </div>
       <div className="main my-projects text-left">
         <h1>No Adults Allowed</h1>
