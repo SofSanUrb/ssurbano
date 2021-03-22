@@ -32,7 +32,7 @@ export default function Projects() {
   const [imagesGame, setGame] = useState(pathGame);
   return (
     <>
-      <div className="main my-projects text-left">
+      <div className="main first-project text-left">
         <h1>ssurbano Portfolio</h1>
         <p>Personal Website with my latest selected projects</p>
         <div className="my-project-links">
@@ -46,7 +46,7 @@ export default function Projects() {
         <CarouselProject projectImages={imagesflatme} />
       </div>
       <div className="main rest-projects text-left">
-        <h1>The Social Code</h1>
+        <h1 className="project-title">The Social Code</h1>
         <p>
           The Social Code (TSC) is a Full Stack Web social media app where
           developers can share their experiences and create online events to
@@ -91,7 +91,7 @@ export default function Projects() {
         </div>
         <CarouselProject projectImages={imagesflatme} />
       </div>
-      <div className="main rest-projects text-left">
+      <div className="main long-title text-left">
         <h1>No Adults Allowed</h1>
         <p>
           Readme is a Fullstack responsive social media web platform that gather
