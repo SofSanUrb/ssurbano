@@ -32,7 +32,7 @@ export default function Projects() {
   const [imagesGame, setGame] = useState(pathGame);
   return (
     <>
-      <section className="main rest-projects text-left">
+      <section className="main first-project text-left">
         <h1 className="project-title">The Social Code</h1>
         <div className="my-project-links">
           <a
@@ -98,7 +98,7 @@ export default function Projects() {
         </div>
         <CarouselProject projectImages={imagesflatme} />
       </section>
-      <section className="main first-project text-left">
+      <section className="main long-title text-left">
         <h1>ssurbano Portfolio</h1>
         <div className="my-project-links">
           <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
@@ -119,7 +119,7 @@ export default function Projects() {
         </div>
         <CarouselProject projectImages={imagesflatme} />
       </section>
-      <section className="main long-title text-left">
+      <section className="main long-title last-title text-left">
         <h1>No Adults Allowed</h1>
         <div className="my-project-links">
           <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
