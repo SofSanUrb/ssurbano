@@ -31,7 +31,8 @@ h2,
 h3,
 h4,
 h5,
-h6, .my-project-links a {
+h6,
+.my-project-links a {
   font-family: "Raleway", sans-serif;
 }
 
@@ -105,7 +106,7 @@ h5 {
 }
 
 .my-navText:hover {
-  border-color:var(--blue);
+  border-color: var(--blue);
   color: var(--textMirror);
 }
 
@@ -234,22 +235,32 @@ img {
   margin: 120 auto;
 }
 
-.my-project-links{
+.my-project-links {
   display: flex;
   justify-content: space-between;
   max-width: 360px;
   font-weight: 800;
   font-size: 1.1em;
   margin-bottom: 5px;
-
 }
-.my-project-links a:hover{
+.my-project-links a:hover {
   background-color: var(--blue);
   color: white;
   text-decoration: none;
   border-radius: 2px;
-  transition: 0.90s;
-  padding:0px 10px;
+  transition: 0.9s;
+  padding: 0px 10px;
+}
+.my-project-tags {
+  display: flex;
+}
+.my-project-tags p {
+  margin-right: 6px;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.my-project-tags p::before {
+  content: "#";
 }
 
 /* Mobile media */
@@ -262,7 +273,7 @@ img {
     font-size: 2.5em;
   }
 
-  .collapsedNavbar{
+  .collapsedNavbar {
     flex-direction: column;
   }
 
