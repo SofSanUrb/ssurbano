@@ -36,18 +36,21 @@ export default function Projects() {
         <h1 className="project-title">The Social Code</h1>
         <div className="my-project-links">
           <a
+            target="_blank"
             className="text-blue"
             href="https://github.com/marta8919/the-social-code-client"
           >
             Repo Client
           </a>
           <a
+            target="_blank"
             className="text-blue"
             href="https://github.com/marta8919/the-social-code-server"
           >
             Repo Server
           </a>
           <a
+            target="_blank"
             className="text-blue"
             href="https://the-social-code.herokuapp.com/"
           >
@@ -74,10 +77,18 @@ export default function Projects() {
       <section className="main rest-projects text-left">
         <h1>flatme</h1>
         <div className="my-project-links">
-          <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
+          <a
+            target="_blank"
+            className="text-blue"
+            href="https://github.com/SofSanUrb/flatme"
+          >
             GitHub
           </a>
-          <a className="text-blue" href="https://flatme.herokuapp.com/">
+          <a
+            target="_blank"
+            className="text-blue"
+            href="https://flatme.herokuapp.com/"
+          >
             Live Web
           </a>
         </div>
@@ -101,10 +112,10 @@ export default function Projects() {
       <section className="main long-title text-left">
         <h1>ssurbano Portfolio</h1>
         <div className="my-project-links">
-          <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
+          <a target="_blank" className="text-blue" href="https://github.com/SofSanUrb/flatme">
             GitHub
           </a>
-          <a className="text-blue" href="https://flatme.herokuapp.com/">
+          <a target="_blank" className="text-blue" href="https://flatme.herokuapp.com/">
             Live Web
           </a>
         </div>
@@ -122,10 +133,10 @@ export default function Projects() {
       <section className="main long-title last-title text-left">
         <h1>No Adults Allowed</h1>
         <div className="my-project-links">
-          <a className="text-blue" href="https://github.com/SofSanUrb/flatme">
+          <a target="_blank" className="text-blue" href="https://github.com/SofSanUrb/flatme">
             GitHub
           </a>
-          <a className="text-blue" href="https://flatme.herokuapp.com/">
+          <a target="_blank" className="text-blue" href="https://flatme.herokuapp.com/">
             Live Web
           </a>
         </div>
