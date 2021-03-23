@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GoTop from "../components/GoTop";
+import Fade from "react-reveal/Fade"
 
 import CarouselProject from "../components/CarouselProject";
 
@@ -32,6 +33,7 @@ export default function Projects() {
   const [imagesGame, setGame] = useState(pathGame);
   return (
     <>
+    <Fade bottom>
       <section className="main first-project text-left">
         <h1 className="project-title">The Social Code</h1>
         <div className="my-project-links">
@@ -156,6 +158,7 @@ export default function Projects() {
         <CarouselProject projectImages={imagesGame} />
       </section>
       <GoTop className="my-gotop" scrollStepInPx="100" delayInMs="20.50" />
+      </Fade>
     </>
   );
 }

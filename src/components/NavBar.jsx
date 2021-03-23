@@ -16,6 +16,7 @@ function NavBar() {
         <button className="navbar-main" onClick={() => setOpen(!open)}></button>
       </div>
       <Collapse in={open}>
+      
         <div id="example-collapse-text">
           <Navbar className="collapsedNavbar">
             <Navbar.Brand href="#home"></Navbar.Brand>
@@ -30,7 +31,9 @@ function NavBar() {
             </Nav.Link>
           </Navbar>
         </div>
+        
       </Collapse>
+      
     </>
   );
 }
