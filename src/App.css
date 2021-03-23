@@ -19,7 +19,7 @@ body {
   text-align: center;
   background-color: var(--background);
   margin: 0;
-  padding: 20px 70px;
+  padding: 40px;
   color: var(--text);
 
   font-family: "Bitter", serif;
@@ -31,7 +31,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, .my-project-links a {
   font-family: "Raleway", sans-serif;
 }
 
@@ -101,6 +101,7 @@ h5 {
   font-weight: 600;
   border: 3px solid var(--backgroundNavbar);
   margin: 0 35px;
+  font-size: 1.2em;
 }
 
 .my-navText:hover {
@@ -231,6 +232,24 @@ img {
 
 .my-projects {
   margin: 120 auto;
+}
+
+.my-project-links{
+  display: flex;
+  justify-content: space-between;
+  max-width: 360px;
+  font-weight: 800;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+
+}
+.my-project-links a:hover{
+  background-color: var(--blue);
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: 0.90s;
+  padding:0px 10px;
 }
 
 /* Mobile media */
