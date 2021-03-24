@@ -6,32 +6,35 @@ import Fade from "react-reveal/Fade";
 import CarouselProject from "../components/CarouselProject";
 
 export default function Projects() {
-  const pathFlatme = [
+  const [imagesflatme, setFlatme] = useState([
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_0_fizk7v.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_1_s1hg11.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_2_xwkzuz.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/flatme_desk_1_v5goji.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_desk_2_oqjglu.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_desk_3_jtyjkl.png",
-  ];
-  const pathTSC = [
+  ]);
+  const [imagesTSC, setTSC] = useState([
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255299/TSC_Mob_1_hpxhjh.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255305/TSC_Mob_2_qc3msr.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_desk_1_mqos8r.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_desk_3_fz6wla.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_Mob_5_tfbn64.png",
-  ];
-  const pathGame = [
+  ]);
+  const [imagesGame, setGame] = useState([
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616263843/NAA_Mob_1_uuahte.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616263843/NAA_Mob_2_awrcst.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/NAA_Desk_1_uy07du.png",
     "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/NAA_Desk_2_u4h4q8.png",
-  ];
-  const pathSsurbano = [];
-
-  const [imagesflatme, setFlatme] = useState(pathFlatme);
-  const [imagesTSC, setTSC] = useState(pathTSC);
-  const [imagesGame, setGame] = useState(pathGame);
+  ]);
+  const [imagesPortfolio, setPotfolio] = useState([
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_Mob_0_qr5xgw.png",
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_Mob_1_lbnoyb.png",
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626502/ssu_Mob_2_d23urw.png",
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_0_ecmtgl.png",
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_1_svcx2t.png",
+    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_2_mw3nm1.png"
+  ]);
   return (
     <>
       <Fade bottom>
@@ -39,21 +42,21 @@ export default function Projects() {
           <h1 className="project-title">The Social Code</h1>
           <div className="my-project-links">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://github.com/marta8919/the-social-code-client"
             >
               Repo Client
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://github.com/marta8919/the-social-code-server"
             >
               Repo Server
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://the-social-code.herokuapp.com/"
             >
@@ -81,14 +84,14 @@ export default function Projects() {
           <h1>flatme</h1>
           <div className="my-project-links">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://github.com/SofSanUrb/flatme"
             >
               GitHub
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://flatme.herokuapp.com/"
             >
@@ -116,14 +119,14 @@ export default function Projects() {
           <h1>ssurbano Portfolio</h1>
           <div className="my-project-links">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://github.com/SofSanUrb/flatme"
             >
               GitHub
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://flatme.herokuapp.com/"
             >
@@ -139,20 +142,20 @@ export default function Projects() {
             <p>CSS</p>
             <p>Bootstrap</p>
           </div>
-          <CarouselProject projectImages={imagesflatme} />
+          <CarouselProject projectImages={imagesPortfolio} />
         </section>
         <section className="main long-title last-title text-left">
           <h1>No Adults Allowed</h1>
           <div className="my-project-links">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://github.com/SofSanUrb/flatme"
             >
               GitHub
             </a>
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="text-blue"
               href="https://flatme.herokuapp.com/"
             >
