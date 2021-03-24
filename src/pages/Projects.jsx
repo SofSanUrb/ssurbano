@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GoTop from "../components/GoTop";
+import Footer from "../components/Footer";
 import Fade from "react-reveal/Fade"
 
 import CarouselProject from "../components/CarouselProject";
@@ -158,6 +159,7 @@ export default function Projects() {
         <CarouselProject projectImages={imagesGame} />
       </section>
       <GoTop className="my-gotop" scrollStepInPx="100" delayInMs="20.50" />
+      <Footer />
       </Fade>
     </>
   );

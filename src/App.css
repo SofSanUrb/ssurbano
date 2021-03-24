@@ -302,6 +302,15 @@ img {
   flex-wrap: wrap;
 }
 
+.about .footer, .main .footer, .my-error .footer{
+  position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+}
+
 /* Mobile media */
 @media (max-width: 1050px) {
   body {
@@ -312,6 +321,9 @@ img {
   h1 {
     font-size: 3.3em;
     transition: 1.5s;
+  }
+  .home, .my-div-contact{
+    margin: auto 0 auto auto;
   }
 
   .collapsedNavbar {

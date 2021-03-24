@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <h1>
           Hi. I’m Sofia.<br></br>I am a Web developer.
         </h1>
+        <Footer/>
       </div>
     </Fade>
   );

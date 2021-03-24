@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -37,7 +38,9 @@ export default function About() {
             </ul>
           </h3>
         </div>
+        <Footer/>
       </div>
+      
     </Fade>
   );
 }
