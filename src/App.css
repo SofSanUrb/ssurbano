@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800&display=swap");
 
 :root {
-  --menuLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616015384/menu_light_argcv8.png)
+  --menuLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616622599/menu_light_q9mist.svg)
     no-repeat;
   --mainLogo: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616016154/main_logoLight_ieomku.png)
     no-repeat;
@@ -78,35 +78,39 @@ h5 {
 }
 
 .home {
-  padding-top: 25vh;
-  padding-bottom: 25vh;
-  background: url(https://res.cloudinary.com/dfpleoyv6/image/upload/v1616091664/blob_kdtsio.svg)
-    no-repeat;
-  background-size: 600px 600px;
-  background-position-y: center;
-  background-position-x: right;
   margin: auto 15vw auto auto;
-  animation: move 10s ease-in-out infinite;
 }
 
+.home h1 {
+  position: absolute;
+  top: 50%;
+  right:9%;
+  width: 100%;
+}
+
+.home-background img {
+  width: 500px;
+  height: auto;
+  animation: move 10s linear infinite;
+}
 @keyframes move {
   0% {
-    transform: scale(1) translate(10px, -30px);
+    transform: scale(1) translate(-3vw, -3vh);
   }
   38% {
-    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+    transform: scale(0.8, 1) translate(-10vw, -5vh) rotate(160deg);
   }
   40% {
-    transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg);
+    transform: scale(0.8, 1) translate(-10vw, -5vh) rotate(160deg);
   }
   78% {
-    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+    transform: scale(0.8, 1) translate(-10vw, 5vh) rotate(-20deg);
   }
   80% {
-    transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg);
+    transform: scale(0.8, 1) translate(-10vw, 5vh) rotate(-20deg);
   }
   100% {
-    transform: scale(1) translate(10px, -30px);
+    transform: scale(1) translate(-3vw, -3vh);
   }
 }
 
@@ -162,9 +166,9 @@ h5 {
   padding: 0 auto;
   border: none;
   background: var(--menuLogo);
-  background-size: 20px 20px;
-  height: 20px;
-  width: 20px;
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .my-tools li::before {
@@ -243,7 +247,7 @@ h5 {
 .slide {
   border-radius: 15px;
 }
-img {
+.my-carousel img {
   border: 5px solid var(--background);
   max-height: 50vh;
   max-width: auto;
@@ -302,13 +306,15 @@ img {
   flex-wrap: wrap;
 }
 
-.about .footer, .main .footer, .my-error .footer{
+.about .footer,
+.main .footer,
+.my-error .footer {
   position: absolute;
-    top: 96%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    text-align: center;
+  top: 96%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
 }
 
 /* Mobile media */
@@ -322,7 +328,8 @@ img {
     font-size: 3.3em;
     transition: 1.5s;
   }
-  .home, .my-div-contact{
+  .home,
+  .my-div-contact {
     margin: auto 0 auto auto;
   }
 
@@ -336,7 +343,7 @@ img {
     transition: 1.5s;
   }
 
-  img {
+  .my-carousel img {
     max-height: 50vh;
     max-width: 80%;
     object-fit: cover;
@@ -384,7 +391,7 @@ img {
     margin-top: 30vh;
   }
 
-  img {
+  .my-carousel img {
     max-height: 58vh;
   }
 
@@ -410,7 +417,7 @@ img {
     padding-top: 20vh;
   }
 
-  img {
+  .my-carousel img {
     max-height: 65vh;
   }
 
@@ -428,7 +435,7 @@ img {
     margin-top: 25vh;
   }
 
-  img {
+  .my-carousel img {
     max-height: 70vh;
   }
 
@@ -450,7 +457,7 @@ img {
     padding-top: 8vh;
   }
 
-  img {
+  .my-carousel img {
     max-height: 70vh;
   }
 
@@ -471,7 +478,7 @@ img {
   .rest-projects {
     margin-top: 22vh;
   }
-  img {
+  .my-carousel img {
     max-height: 70vh;
   }
 
@@ -517,6 +524,9 @@ img {
 }
 
 @media (max-width: 350px) and (max-height: 655px) {
+  h1, h2{
+    font-size: 2.5em;
+  }
   .first-project {
     padding-top: 38vh;
   }
@@ -535,6 +545,12 @@ img {
 
   .go-top {
     margin-top: 180px;
+  }
+}
+
+@media (max-width:290px){
+  #second-tags{
+    padding-left: 15px;
   }
 }
 
@@ -561,7 +577,7 @@ img {
     font-size: 3.2em;
   }
 
-  img {
+  .my-carousel img {
     max-height: 60vh;
   }
 

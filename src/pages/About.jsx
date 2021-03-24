@@ -30,7 +30,7 @@ export default function About() {
             </ul>
           </h3>
           <h3>
-            <ul>
+            <ul id="second-tags">
               <li>Bootstrap</li>
               <li>Material UI</li>
               <li>Nodejs</li>
