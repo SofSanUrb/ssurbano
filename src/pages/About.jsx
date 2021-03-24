@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 
 export default function About() {
   return (
-    <Fade bottom>
-      <div className="about main text-left">
+    <div className="about main text-left">
+      <Fade bottom>
         <h2>Hi there!</h2>
         <h3>
           I’m a web developer focused on{" "}
@@ -38,9 +38,8 @@ export default function About() {
             </ul>
           </h3>
         </div>
-        <Footer/>
-      </div>
-      
-    </Fade>
+      </Fade>
+      <Footer />
+    </div>
   );
 }
