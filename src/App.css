@@ -376,8 +376,9 @@ img {
     margin-top: 28vh;
   }
   .first-project{
-    margin-top: 8vh;
+    padding-top: 20vh;
   }
+  
 
   img {
     max-height: 65vh;
@@ -412,7 +413,11 @@ img {
 
 @media (max-width: 500px) and (min-height: 725px) and (max-height: 1000px) {
   .rest-projects {
-    margin-top: 25vh;
+    margin-top: 30vh;
+  }
+
+  .first-project{
+    margin-top: 8vh;
   }
 
   img {
@@ -420,36 +425,36 @@ img {
   }
 
   .long-title {
-    margin-top: 22vh;
+    margin-top: 28vh;
   }
 
   .last-title{
-    margin-top: 24vh;
+    margin-top: 35vh;
   }
 
   .go-top {
-    margin-top: 190px;
+    margin-top: 230px;
   }
 }
 
 @media (max-width: 500px) and (min-height: 800px) and (max-height: 1000px) {
   .rest-projects {
-    margin-top: 13vh;
+    margin-top: 18vh;
   }
   img {
     max-height: 70vh;
   }
 
   .long-title {
-    margin-top: 11vh;
+    margin-top: 15vh;
   }
 
   .last-title{
-    margin-top: 14vh;
+    margin-top: 22vh;
   }
 
   .go-top {
-    margin-top: 135px;
+    margin-top: 170px;
   }
 }
 
@@ -465,15 +470,15 @@ img {
   }
 
   .rest-projects {
-    margin-top: 42vh;
+    margin-top: 45vh;
   } 
 
   .long-title {
-    margin-top: 30vh;
+    margin-top: 32vh;
   }
 
   .last-title{
-    margin-top: 38vh;
+    margin-top: 42vh;
   }
 
   .go-top {
@@ -487,13 +492,6 @@ img {
   }
   h3{
     font-size: 1.3em;
-  }
-  .footer{
-    position: absolute;
-    top: 96%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
   }
 
   .my-contact {
