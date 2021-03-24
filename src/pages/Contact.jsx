@@ -11,14 +11,6 @@ export default function Contact() {
         <a id="contact-email" href="mailto:sofiasanchezurbano@gmail.com">
           Send me an email
         </a>
-        <a
-          id="contact-cv"
-          target="_blank"
-          href="https://drive.google.com/file/d/19QalWKNHGzE8E_5ZyDkb3YecrlQc55GH/view?usp=sharing"
-          download
-        >
-          Download Resume
-        </a>
         <a id="contact-github" target="_blank" href="https://github.com/SofSanUrb">
           Github
         </a>

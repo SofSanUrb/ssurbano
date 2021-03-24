@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import NotFound from "./pages/NotFound";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -42,6 +43,11 @@ function App() {
             return <Projects />;
           }}
         />
+         <Route
+            render={() => {
+              return <NotFound />;
+            }}
+          />
       </Switch>
       
       
