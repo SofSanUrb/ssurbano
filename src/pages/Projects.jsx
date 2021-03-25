@@ -9,29 +9,32 @@ export default function Projects() {
   return (
     <>
       <Fade bottom>
-        <section className="main first-project text-left">
+        <section className="main my-card-project text-left">
           <h1 className="project-title">The Social Code</h1>
           <div className="my-project-links">
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue"
+              href="https://the-social-code.herokuapp.com/"
+            >
+              Live Web
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
               className="text-blue"
               href="https://github.com/marta8919/the-social-code-client"
             >
               Repo Client
             </a>
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="text-blue"
               href="https://github.com/marta8919/the-social-code-server"
             >
               Repo Server
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
-              className="text-blue"
-              href="https://the-social-code.herokuapp.com/"
-            >
-              Live Web
             </a>
           </div>
 
@@ -49,24 +52,34 @@ export default function Projects() {
             <p>MongoDB</p>
             <p>MaterialUI</p>
           </div>
-          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_TSC_fntomu.png" alt="TSCProject"/>
+          <a
+            className="my-project-image"
+            href="https://the-social-code.herokuapp.com/"
+          >
+            <img
+              src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_TSC_fntomu.png"
+              alt="TSCProject"
+            />
+          </a>
         </section>
-        <section className="main rest-projects text-left">
+        <section className="main my-card-project text-left">
           <h1>flatme</h1>
           <div className="my-project-links">
             <a
-              target="_blank" rel="noreferrer"
-              className="text-blue"
-              href="https://github.com/SofSanUrb/flatme"
-            >
-              GitHub
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="text-blue"
               href="https://flatme.herokuapp.com/"
             >
               Live Web
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue"
+              href="https://github.com/SofSanUrb/flatme"
+            >
+              GitHub
             </a>
           </div>
 
@@ -84,25 +97,31 @@ export default function Projects() {
             <p>MongoDB</p>
             <p>Bootstrap</p>
           </div>
-          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_flatme_ynidyj.png" alt="TSCProject"/>
-
+          <a className="my-project-image" href="https://flatme.herokuapp.com/">
+            <img
+              src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_flatme_ynidyj.png"
+              alt="TSCProject"
+            />
+          </a>
         </section>
-        <section className="main long-title text-left">
+        <section className="main my-card-project text-left">
           <h1>ssurbano Portfolio</h1>
           <div className="my-project-links">
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="text-blue"
-              href="https://github.com/SofSanUrb/flatme"
-            >
-              GitHub
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
-              className="text-blue"
-              href="https://flatme.herokuapp.com/"
+              href="https://ssurbano.com/"
             >
               Live Web
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue"
+              href="https://github.com/SofSanUrb/ssurbano"
+            >
+              GitHub
             </a>
           </div>
 
@@ -114,25 +133,31 @@ export default function Projects() {
             <p>CSS</p>
             <p>Bootstrap</p>
           </div>
-          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_ssurbano_gernkg.png" alt="TSCProject"/>
-
+          <a className="my-project-image" href="https://ssurbano.com/">
+            <img
+              src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_ssurbano_gernkg.png"
+              alt="TSCProject"
+            />
+          </a>
         </section>
-        <section className="main long-title last-title text-left">
+        <section className="main my-card-project last-title text-left">
           <h1>No Adults Allowed</h1>
           <div className="my-project-links">
             <a
-              target="_blank" rel="noreferrer"
-              className="text-blue"
-              href="https://github.com/SofSanUrb/no-adults-allowed"
-            >
-              GitHub
-            </a>
-            <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               className="text-blue"
               href="https://sofsanurb.github.io/no-adults-allowed/"
             >
               Live Web
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue"
+              href="https://github.com/SofSanUrb/no-adults-allowed"
+            >
+              GitHub
             </a>
           </div>
 
@@ -148,8 +173,15 @@ export default function Projects() {
             <p>HTML</p>
             <p>CSS</p>
           </div>
-          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_gameNAA_okre6i.png" alt="TSCProject"/>
-
+          <a
+            className="my-project-image"
+            href="https://sofsanurb.github.io/no-adults-allowed/"
+          >
+            <img
+              src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_gameNAA_okre6i.png"
+              alt="TSCProject"
+            />
+          </a>
         </section>
         <GoTop className="my-gotop" scrollStepInPx="100" delayInMs="20.50" />
       </Fade>
