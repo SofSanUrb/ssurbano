@@ -14,7 +14,10 @@
   --background: white;
   --backgroundNavbar: black;
 }
-
+* { 
+  padding:0;
+  margin:0;
+}
 body {
   text-align: center;
   background-color: var(--background);
@@ -45,7 +48,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h1,
@@ -67,10 +70,11 @@ h5 {
 
 .my-tools {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .main {
-  height: 85vh;
+  height: 83vh;
   display: flex;
   justify-items: flex-end;
   flex-direction: column;
@@ -95,7 +99,7 @@ h5 {
 }
 @keyframes move {
   0% {
-    transform: scale(1) translate(1vw,1vh);
+    transform: scale(1) translate(1vw, 1vh);
   }
   38% {
     transform: scale(0.8, 1) translate(10vw, 5vh) rotate(160deg);
@@ -110,7 +114,7 @@ h5 {
     transform: scale(0.8, 1) translate(10vw, 5vh) rotate(-20deg);
   }
   100% {
-    transform: scale(1) translate(1vw,1vh);
+    transform: scale(1) translate(1vw, 1vh);
   }
 }
 
@@ -185,16 +189,13 @@ h5 {
 .my-tech {
   padding: 1px 5px;
 }
-.my-tech:hover {
-  background-color: var(--blue);
-  border-radius: 5px;
-  color: white;
-}
+
 
 .footer {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .scroll-to-top {
@@ -270,26 +271,55 @@ h5 {
   flex-wrap: wrap;
 }
 
-.about .footer,
 .main .footer,
 .my-error .footer {
   position: absolute;
-  top: 96%;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
 }
-.my-project-image{
+.my-project-image {
   text-align: center;
 }
 
-.my-project-image img{
+.my-project-image img {
   height: auto;
   max-width: 100%;
   object-fit: contain;
 }
 
+.my-card-project {
+  height: 100%;
+}
+
+.about{
+height: 100vh;
+margin-top: 25px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.rest-about{
+  margin-top: 20px;
+}
+
+.contact-me {
+  box-shadow: 20px 20px 60px #fdd1b8, -20px -20px 60px #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid var(--blue);
+  margin-bottom:35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.my-contact a {
+  color: var(--blue)
+}
 /* Mobile media */
 @media (max-width: 900px) {
   body {
@@ -320,54 +350,73 @@ h5 {
 
   @keyframes move {
     0% {
-      transform: scale(1) translate(-20vw,-20vh);
+      transform: scale(1) translate(-20vw, 5vh);
     }
     38% {
-      transform: scale(0.8, 1) translate(-20vw, -15vh) rotate(160deg);
+      transform: scale(0.8, 1) translate(-20vw, 5vh) rotate(160deg);
     }
     40% {
-      transform: scale(0.8, 1) translate(-20vw, -15vh) rotate(160deg);
+      transform: scale(0.8, 1) translate(-20vw, 5vh) rotate(160deg);
     }
     78% {
-      transform: scale(0.8, 1) translate(-20vw, -15vh) rotate(-20deg);
+      transform: scale(0.8, 1) translate(-20vw, 5vh) rotate(-20deg);
     }
     80% {
-      transform: scale(0.8, 1) translate(-20vw, -15vh) rotate(-20deg);
+      transform: scale(0.8, 1) translate(-20vw, 5vh) rotate(-20deg);
     }
     100% {
-      transform: scale(1) translate(-20vw,-20vh);
+      transform: scale(1) translate(-20vw, 5vh);
     }
   }
 
-  section:first-of-type{
+  section:first-of-type {
     margin-top: 30px;
   }
 
   .my-card-project {
     margin-bottom: 30px;
   }
-}
 
-.main {
-  height: 100vh;
-}
-
-.my-card-project{
-  height: 100%;
-}
-
-@media (min-width: 500px) and (orientation:landscape){
-  .collapsedNavbar {
-    flex-direction:row;
+  #second-tags {
+    padding-left: 15px;
   }
 }
 
-@media (max-width: 1050px) and (orientation:landscape){
+@media (max-width: 900px) and (max-height: 1000px) {
+  @keyframes move {
+    0% {
+      transform: scale(1) translate(-20vw, 5vh);
+    }
+    38% {
+      transform: scale(0.8, 1) translate(-20vw, 3vh) rotate(160deg);
+    }
+    40% {
+      transform: scale(0.8, 1) translate(-20vw, 3vh) rotate(160deg);
+    }
+    78% {
+      transform: scale(0.8, 1) translate(-20vw, 3vh) rotate(-20deg);
+    }
+    80% {
+      transform: scale(0.8, 1) translate(-20vw, 3vh) rotate(-20deg);
+    }
+    100% {
+      transform: scale(1) translate(-20vw, 5vh);
+    }
+  }
+}
+
+@media (min-width: 500px) and (orientation: landscape) {
+  .collapsedNavbar {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1050px) and (orientation: landscape) {
   .my-card-project {
     margin-bottom: 70px;
   }
 
-  section:first-of-type{
+  section:first-of-type {
     margin-top: 30px;
   }
 }
@@ -380,9 +429,6 @@ h5 {
 }
 
 @media (max-width: 290px) {
-  #second-tags {
-    padding-left: 15px;
-  }
 
   .home-background img {
     width: 200px;
@@ -407,7 +453,7 @@ h5 {
   h1 {
     font-size: 3.2em;
   }
-  section:first-of-type{
+  section:first-of-type {
     margin-top: 30px;
   }
 }
