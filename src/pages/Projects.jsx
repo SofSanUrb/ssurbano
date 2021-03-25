@@ -6,35 +6,6 @@ import Fade from "react-reveal/Fade";
 import CarouselProject from "../components/CarouselProject";
 
 export default function Projects() {
-  const [imagesflatme, setFlatme] = useState([
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_0_fizk7v.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_1_s1hg11.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_Mob_2_xwkzuz.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/flatme_desk_1_v5goji.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_desk_2_oqjglu.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/flatme_desk_3_jtyjkl.png",
-  ]);
-  const [imagesTSC, setTSC] = useState([
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255299/TSC_Mob_1_hpxhjh.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255305/TSC_Mob_2_qc3msr.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_desk_1_mqos8r.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_desk_3_fz6wla.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255056/TSC_Mob_5_tfbn64.png",
-  ]);
-  const [imagesGame, setGame] = useState([
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616263843/NAA_Mob_1_uuahte.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616263843/NAA_Mob_2_awrcst.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/NAA_Desk_1_uy07du.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616255055/NAA_Desk_2_u4h4q8.png",
-  ]);
-  const [imagesPortfolio, setPotfolio] = useState([
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_Mob_0_qr5xgw.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_Mob_1_lbnoyb.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626502/ssu_Mob_2_d23urw.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_0_ecmtgl.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_1_svcx2t.png",
-    "https://res.cloudinary.com/dfpleoyv6/image/upload/v1616626503/ssu_desk_2_mw3nm1.png"
-  ]);
   return (
     <>
       <Fade bottom>
@@ -78,7 +49,7 @@ export default function Projects() {
             <p>MongoDB</p>
             <p>MaterialUI</p>
           </div>
-          <CarouselProject projectImages={imagesTSC} />
+          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_TSC_fntomu.png" alt="TSCProject"/>
         </section>
         <section className="main rest-projects text-left">
           <h1>flatme</h1>
@@ -113,7 +84,8 @@ export default function Projects() {
             <p>MongoDB</p>
             <p>Bootstrap</p>
           </div>
-          <CarouselProject projectImages={imagesflatme} />
+          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_flatme_ynidyj.png" alt="TSCProject"/>
+
         </section>
         <section className="main long-title text-left">
           <h1>ssurbano Portfolio</h1>
@@ -142,7 +114,8 @@ export default function Projects() {
             <p>CSS</p>
             <p>Bootstrap</p>
           </div>
-          <CarouselProject projectImages={imagesPortfolio} />
+          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_ssurbano_gernkg.png" alt="TSCProject"/>
+
         </section>
         <section className="main long-title last-title text-left">
           <h1>No Adults Allowed</h1>
@@ -150,14 +123,14 @@ export default function Projects() {
             <a
               target="_blank" rel="noreferrer"
               className="text-blue"
-              href="https://github.com/SofSanUrb/flatme"
+              href="https://github.com/SofSanUrb/no-adults-allowed"
             >
               GitHub
             </a>
             <a
               target="_blank" rel="noreferrer"
               className="text-blue"
-              href="https://flatme.herokuapp.com/"
+              href="https://sofsanurb.github.io/no-adults-allowed/"
             >
               Live Web
             </a>
@@ -175,7 +148,8 @@ export default function Projects() {
             <p>HTML</p>
             <p>CSS</p>
           </div>
-          <CarouselProject projectImages={imagesGame} />
+          <img className="my-project-image" src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_gameNAA_okre6i.png" alt="TSCProject"/>
+
         </section>
         <GoTop className="my-gotop" scrollStepInPx="100" delayInMs="20.50" />
       </Fade>
