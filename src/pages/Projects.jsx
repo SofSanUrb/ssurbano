@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import GoTop from "../components/GoTop";
 import Footer from "../components/Footer";
 import Fade from "react-reveal/Fade";
-
-import CarouselProject from "../components/CarouselProject";
 
 export default function Projects() {
   return (
