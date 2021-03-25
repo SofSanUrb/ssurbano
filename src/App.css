@@ -306,6 +306,10 @@ justify-content: space-evenly;
   margin-top: 20px;
 }
 
+.rest-about li{
+  margin-left: 35px;
+}
+
 .contact-me {
   box-shadow: 20px 20px 60px #fdd1b8, -20px -20px 60px #ffffff;
   padding: 15px;
@@ -318,7 +322,8 @@ justify-content: space-evenly;
 }
 
 .my-contact a {
-  color: var(--blue)
+  color: var(--blue);
+  height: auto;
 }
 /* Mobile media */
 @media (max-width: 900px) {

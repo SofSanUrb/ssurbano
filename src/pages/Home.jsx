@@ -13,7 +13,7 @@ export default function Home() {
           Hi. I’m Sofia.<br></br>I am a Web developer.
         </h1>
       </Fade>
-      <Footer />
+
     </div>
   );
 }
