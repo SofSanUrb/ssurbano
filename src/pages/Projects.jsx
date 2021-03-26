@@ -2,10 +2,14 @@ import React from "react";
 import GoTop from "../components/GoTop";
 import Footer from "../components/Footer";
 import Fade from "react-reveal/Fade";
+import { Helmet } from "react-helmet";
 
 export default function Projects() {
   return (
     <>
+      <Helmet>
+        <title>ssurbano | Works</title>
+      </Helmet>
       <Fade bottom>
         <section className="main my-card-project text-left">
           <h1 className="project-title">The Social Code</h1>
