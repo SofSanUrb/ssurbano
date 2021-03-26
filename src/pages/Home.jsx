@@ -1,6 +1,5 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 export default function Home() {

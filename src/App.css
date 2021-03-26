@@ -260,13 +260,14 @@ h5 {
   display: flex;
   flex-wrap: wrap;
 }
-.my-project-tags p {
+.my-project-tags a {
   margin-right: 6px;
   font-weight: 500;
   font-size: 1.1em;
   margin-bottom: 0;
+  color:var(--blue)
 }
-.my-project-tags p::before {
+.my-project-tags a::before {
   content: "#";
 }
 

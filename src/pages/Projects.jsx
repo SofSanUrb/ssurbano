@@ -46,13 +46,13 @@ export default function Projects() {
             network and share knowledge with other people
           </p>
           <div className="my-project-tags text-blue">
-            <p>React</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Nodejs</p>
-            <p>MongoDB</p>
-            <p>MaterialUI</p>
+            <a href="https://github.com/search?q=%23react">React</a>
+            <a href="https://github.com/search?q=%23javascript">JavaScript</a>
+            <a href="https://github.com/search?q=%23HTML">HTML</a>
+            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23Nodejs">Nodejs</a>
+            <a href="https://github.com/search?q=%23MongoDB">MongoDB</a>
+            <a href="https://material-ui.com/es/">MaterialUI</a>
           </div>
           <a
             className="my-project-image"
@@ -91,13 +91,14 @@ export default function Projects() {
             know and gather as much information as possible.
           </p>
           <div className="my-project-tags text-blue">
-            <p>Handlebars</p>
+            <a href="https://github.com/search?q=%23handlebars">Handlebars</a>
             <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Nodejs</p>
-            <p>MongoDB</p>
-            <p>Bootstrap</p>
+            <a href="https://github.com/search?q=%23javascript">JavaScript</a>
+            <a href="https://github.com/search?q=%23HTML">HTML</a>
+            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23Nodejs">Nodejs</a>
+            <a href="https://github.com/search?q=%23MongoDB">MongoDB</a>
+            <a href="https://github.com/search?q=%23bootstrap">Bootstrap</a>
           </div>
           <a className="my-project-image" href="https://flatme.herokuapp.com/">
             <img
@@ -129,11 +130,11 @@ export default function Projects() {
 
           <p>Personal Website with my latest selected projects</p>
           <div className="my-project-tags text-blue">
-            <p>React</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Bootstrap</p>
+          <a href="https://github.com/search?q=%23react">React</a>
+            <a href="https://github.com/search?q=%23javascript">JavaScript</a>
+            <a href="https://github.com/search?q=%23HTML">HTML</a>
+            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23bootstrap">Bootstrap</a>
           </div>
           <a className="my-project-image" href="https://ssurbano.com/">
             <img
@@ -171,10 +172,10 @@ export default function Projects() {
             stops (Game won), showing the final score to the user.
           </p>
           <div className="my-project-tags text-blue">
-            <p>Canvas</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
+            <a href="https://github.com/topics/canvas">Canvas</a>
+            <a href="https://github.com/search?q=%23javascript">JavaScript</a>
+            <a href="https://github.com/search?q=%23HTML">HTML</a>
+            <a href="https://github.com/search?q=%23CSS">CSS</a>
           </div>
           <a
             className="my-project-image"
