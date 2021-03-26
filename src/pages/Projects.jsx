@@ -164,10 +164,11 @@ export default function Projects() {
           </div>
 
           <p>
-            Readme is a Fullstack responsive social media web platform that
-            gather street and district reviews over different countries, with
-            the goal of helping people that need to move to an area or a city
-            they don't know, have as much information as possible.
+            "No Adults Allowed" is a web responsive game. The player can move
+            vertically and horizontally through the room, avoiding incoming
+            obstacles that appear moving in one direction. The game ends either
+            when the player's score reaches 0 (Game lost) or when the timer
+            stops (Game won), showing the final score to the user.
           </p>
           <div className="my-project-tags text-blue">
             <p>Canvas</p>
