@@ -49,8 +49,8 @@ export default function About() {
                 <ul id="first-tags">
                   <li>JavaScript</li>
                   <li>React</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
                 </ul>
               </h3>
               <h3>

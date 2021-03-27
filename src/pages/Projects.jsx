@@ -48,8 +48,8 @@ export default function Projects() {
           <div className="my-project-tags text-blue">
             <a href="https://github.com/search?q=%23react">React</a>
             <a href="https://github.com/search?q=%23javascript">JavaScript</a>
-            <a href="https://github.com/search?q=%23HTML">HTML</a>
-            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23HTML5">HTML5</a>
+            <a href="https://github.com/search?q=%23CSS3">CSS3</a>
             <a href="https://github.com/search?q=%23Nodejs">Nodejs</a>
             <a href="https://github.com/search?q=%23MongoDB">MongoDB</a>
             <a href="https://material-ui.com/es/">MaterialUI</a>
@@ -94,8 +94,8 @@ export default function Projects() {
             <a href="https://github.com/search?q=%23handlebars">Handlebars</a>
             <p>JavaScript</p>
             <a href="https://github.com/search?q=%23javascript">JavaScript</a>
-            <a href="https://github.com/search?q=%23HTML">HTML</a>
-            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23HTML5">HTML5</a>
+            <a href="https://github.com/search?q=%23CSS3">CSS3</a>
             <a href="https://github.com/search?q=%23Nodejs">Nodejs</a>
             <a href="https://github.com/search?q=%23MongoDB">MongoDB</a>
             <a href="https://github.com/search?q=%23bootstrap">Bootstrap</a>
@@ -132,8 +132,8 @@ export default function Projects() {
           <div className="my-project-tags text-blue">
           <a href="https://github.com/search?q=%23react">React</a>
             <a href="https://github.com/search?q=%23javascript">JavaScript</a>
-            <a href="https://github.com/search?q=%23HTML">HTML</a>
-            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23HTML5">HTML5</a>
+            <a href="https://github.com/search?q=%23CSS3">CSS3</a>
             <a href="https://github.com/search?q=%23bootstrap">Bootstrap</a>
           </div>
           <a className="my-project-image" href="https://ssurbano.com/">
@@ -174,8 +174,8 @@ export default function Projects() {
           <div className="my-project-tags text-blue">
             <a href="https://github.com/topics/canvas">Canvas</a>
             <a href="https://github.com/search?q=%23javascript">JavaScript</a>
-            <a href="https://github.com/search?q=%23HTML">HTML</a>
-            <a href="https://github.com/search?q=%23CSS">CSS</a>
+            <a href="https://github.com/search?q=%23HTML5">HTML5</a>
+            <a href="https://github.com/search?q=%23CSS3">CSS3</a>
           </div>
           <a
             className="my-project-image"
