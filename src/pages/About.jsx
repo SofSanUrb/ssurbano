@@ -10,12 +10,12 @@ export default function About() {
       <Helmet>
         <title>ssurbano | About</title>
       </Helmet>
-      <div className="about text-left">
+      <div className="about column text-left">
         <Fade bottom>
           <div id="intern-about">
             <h2>Hi there!</h2>
             <h3>
-              I'm Sofía, I’m a web developer based in sunny Madrid focused on{" "}
+              I'm Sofía Sánchez Urbano, I’m a web developer based in sunny Madrid focused on{" "}
               <span className="text-blue my-tech">Front-end</span> and{" "}
               <span className="text-blue my-tech">Back-end</span> technologies,
               fan of puzzles and design.{" "}

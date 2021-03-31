@@ -302,10 +302,13 @@ h5 {
 
 .about{
 height: 100vh;
-padding-top: 25px;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+}
+
+#intern-about{
+  max-width: 1000px;
 }
 
 .rest-about{
