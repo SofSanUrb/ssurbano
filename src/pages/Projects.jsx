@@ -79,7 +79,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
               className="text-blue"
-              href="https://github.com/SofSanUrb/flatme"
+              href="https://github.com/sofisdev/flatme"
             >
               GitHub
             </a>
@@ -122,7 +122,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
               className="text-blue"
-              href="https://github.com/SofSanUrb/ssurbano"
+              href="https://github.com/sofisdev/ssurbano"
             >
               GitHub
             </a>
@@ -150,7 +150,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
               className="text-blue"
-              href="https://sofsanurb.github.io/no-adults-allowed/"
+              href="https://sofisdev.github.io/no-adults-allowed/"
             >
               Live Web
             </a>
@@ -158,7 +158,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
               className="text-blue"
-              href="https://github.com/SofSanUrb/no-adults-allowed"
+              href="https://github.com/sofisdev/no-adults-allowed"
             >
               GitHub
             </a>
@@ -179,7 +179,7 @@ export default function Projects() {
           </div>
           <a
             className="my-project-image"
-            href="https://sofsanurb.github.io/no-adults-allowed/"
+            href="https://sofisdev.github.io/no-adults-allowed/"
           >
             <img
               src="https://res.cloudinary.com/dfpleoyv6/image/upload/v1616667301/layout_gameNAA_okre6i.png"

@@ -21,7 +21,7 @@ export default function Contact() {
                 id="contact-github"
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/SofSanUrb"
+                href="https://github.com/sofisdev"
               >
                 Github
               </a>

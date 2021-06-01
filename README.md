@@ -31,7 +31,7 @@ yarn dev
 
 ## Created by
 
-* [**Sofía Sánchez Urbano**](https://github.com/SofSanUrb)
+* [**Sofía Sánchez Urbano**](https://github.com/sofisdev)
 * [LinkedIn](https://www.linkedin.com/in/sofiasanchezurb/)
 
 ## License 
